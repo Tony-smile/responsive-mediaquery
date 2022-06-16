@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>RESPONSIVE WITH MEDIA QUERY</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="text" id="text">
+      <h1>Learn to code by<br>
+        Watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. <br>
+        Watching scripted tutorials is great, but understanding how <br>
+        developers think is invaluable.
+      </p>
+    </div>
+    <div class="form-container" id="reform">
+      <div class="banner" id="trials">
+        <p class="trial">
+          <strong>Try it free 7 days</strong>
+          then $20/mo. thereafter
+        </p>
+      </div>
+      <div class="formbox">
+        <form action="#" id="form">
+          <div class="form-item">
+            <input type="text" name="fname" id="name" placeholder="First name" value="Jonathan " autofocus onmouseover="this.setSelectionRange(this.value.length,this.value.length);" onfocus="this.setSelectionRange(this.value.length,this.value.length);" required>
+            <label for="fname">First Name cannot be empty</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="lname" id="name" placeholder="Last name" required>
+
+            <label for="lname">Last Name cannot be empty</label>
+          </div>
+          <div class="form-item">
+            <input type="email" name="email" id="email" placeholder="Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            <label for="email">Looks like this is not an email</label>
+            <div class="bar error">omail@example.com</div>
+          </div>
+          
+          <div class="form-item">
+            <input type="password" name="password" id="password" placeholder="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required>
+            <label for="password">Possword cannot be empty</label>
+          </div>
+          <div class="form-item">
+            <input type="submit" value="CLAIM YOUR FREE TRIAL" id="btn">
+          </div>
+          <div class="form-item" id="terms">
+            <small class="terms">
+              By clicking the button, you are agreeing to our
+              <span><a href="#">Terms and Services</a></span>
+            </small>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
