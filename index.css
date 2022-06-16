@@ -216,7 +216,7 @@ small{
     display: block;
  
     margin-left: 6%;
-    margin-right: 6%;
+    padding-right: 6%;
 }
 input:invalid+label{
 margin-right: 10%;
