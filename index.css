@@ -174,14 +174,14 @@ input:required:invalid {
     background-origin: content-box;
     padding-right:  4%;
 }
-.error {
+/* .error {
     display: absolute; 
     color: hsl(0, 100%, 74%);  
     float:inline-start; 
     margin-top: %;
     margin-left: 53%;
     font-size: 14px;
-    }
+    } */
 input:invalid+label {
     display: inline; 
     color: hsl(0, 100%, 74%);  
@@ -243,12 +243,14 @@ margin-right: 10%;
         margin-bottom: 20%;
     }
     #text{
-       gap: 0;
+        display: flex;
+       gap: 5%;
         text-align: center;
         margin-top:25%;
     }
     .text>h1{
         font-size: 2rem;
+        padding-bottom: 20px;
     }
     #reform{
         justify-content: center;
@@ -285,6 +287,7 @@ margin-right: 10%;
     }
     small{
         text-align: center;
+        padding-right: 5%;
     }
     input:invalid+label{
         margin-right: 10%;
